@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Write a program to take marks of three subjects and print the grade of student
+        var x=+prompt();
+        var y=+prompt();
+        var z=+prompt();
+
+        var total=300;
+        var a=x+y+z;
+        var b=(a/300)*100;
+        if(b>=75){
+            console.log("a grade")
+        }
+        else{
+            if(b>=60){
+                console.log("b grade")
+            }
+            else{
+                console.log("c grade")
+            }
+        }
+
+        (b>=75?console.log("a grade"):(b>=60?console.log("b grade"):console.log("c grade")))
+
+
+    </script>
+</body>
+</html>
